@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>{% block title %}Casebook{% endblock %}</title>
+		<meta name="description" content="{% block description %}Casebook - Project 1{% endblock %}" />
+		<link href="{{ MEDIA_URL }}css/reset.css" rel="stylesheet" type="text/css" media="screen,projection" />
+		<link href="{{ MEDIA_URL }}css/960.css" rel="stylesheet" type="text/css" media="screen,projection" />
+		<link href="{{ MEDIA_URL }}css/text.css" rel="stylesheet" type="text/css" media="screen,projection" />
+		<link href="{{ MEDIA_URL }}css/screen.css" rel="stylesheet" type="text/css" media="screen,projection" />
+	</head>
+	<body>
+	    <div class="container_12 clearfix">
+	        <div id="header">
+	            <div id="logo" class="grid_7">
+	                <a href="/login">Casebook</a>
+	            </div>
+        	    <ul id="nav" clas	s="grid_5">        	       
+        	        {% if menu %}
+        	            <li><a href="{% url logout %}">Sign out of {{ request.session.username }}</a></li>
+        	            <li><a href="{% url  userline%}">Home</a></li>
+        	            <li><a href="../photo/"%}">Photo_Album</a></li>
+        	        
+        	    </ul>
+    	    </div>
+    	    <div class="clear"></div>
+    	    {% block content %}
+    	    {% endblock %}    	    
+	     <div id="sidebar" class="grid_3 omega">
+                <img src ="http://www.h-online.com/imgs/43/5/1/2/6/7/4/cassandra200.jpg-0083ea8d50b285a7.jpeg"/>
+                {% block sidebar %}
+                {% endblock %}
+            </div>
+	    </div>
+	</body>
+</html>

@@ -1,0 +1,65 @@
+user user1 "User 1" "password1"
+user user2 "User 2" "password2"
+user user3 "User 3" "password3"
+user user4 "User 4" "password4"
+user user5 "User 5" "password5"
+friend user2 user3
+friend user1 user4
+friend user1 user3
+friend user3 user5
+friend user2 user4
+friend user2 user5
+friend user1 user5
+friend user3 user4
+friend user1 user2
+friend user4 user5
+photo user1 http://enl.usc.edu/~cs694/casebook/photos/photo73.jpg
+photo user4 http://enl.usc.edu/~cs694/casebook/photos/photo74.jpg
+photo user2 http://enl.usc.edu/~cs694/casebook/photos/photo60.jpg
+photo user5 http://enl.usc.edu/~cs694/casebook/photos/photo23.jpg
+photo user4 http://enl.usc.edu/~cs694/casebook/photos/photo29.jpg
+photo user4 http://enl.usc.edu/~cs694/casebook/photos/photo96.jpg
+photo user1 http://enl.usc.edu/~cs694/casebook/photos/photo17.jpg
+photo user3 http://enl.usc.edu/~cs694/casebook/photos/photo57.jpg
+photo user5 http://enl.usc.edu/~cs694/casebook/photos/photo81.jpg
+photo user5 http://enl.usc.edu/~cs694/casebook/photos/photo54.jpg
+photo user4 http://enl.usc.edu/~cs694/casebook/photos/photo94.jpg
+photo user1 http://enl.usc.edu/~cs694/casebook/photos/photo21.jpg
+photo user5 http://enl.usc.edu/~cs694/casebook/photos/photo53.jpg
+photo user1 http://enl.usc.edu/~cs694/casebook/photos/photo51.jpg
+photo user1 http://enl.usc.edu/~cs694/casebook/photos/photo8.jpg
+photo user3 http://enl.usc.edu/~cs694/casebook/photos/photo50.jpg
+photo user4 http://enl.usc.edu/~cs694/casebook/photos/photo74.jpg
+photo user3 http://enl.usc.edu/~cs694/casebook/photos/photo73.jpg
+photo user5 http://enl.usc.edu/~cs694/casebook/photos/photo51.jpg
+photo user5 http://enl.usc.edu/~cs694/casebook/photos/photo76.jpg
+photo user5 http://enl.usc.edu/~cs694/casebook/photos/photo11.jpg
+photo user5 http://enl.usc.edu/~cs694/casebook/photos/photo88.jpg
+photo user4 http://enl.usc.edu/~cs694/casebook/photos/photo4.jpg
+photo user3 http://enl.usc.edu/~cs694/casebook/photos/photo13.jpg
+photo user3 http://enl.usc.edu/~cs694/casebook/photos/photo59.jpg
+photo user1 http://enl.usc.edu/~cs694/casebook/photos/photo82.jpg 
+wallpost user5 "Office Automation: 	The use of computers to improve efficiency in the office 	by removing anyone you would want to talk with over coffee."
+wallpost user5 "The correct way to punctuate a sentence that starts: \"Of course it is none of my business, but --\" is to place a period after the word \"but.\" Don't use excessive force in supplying such a moron with a period. Cutting his throat is only a momentary pleasure and is bound to get you talked about. 		-- Lazarus Long, \"Time Enough for Love\""
+wallpost user3 "Tonight's the night:  Sleep in a eucalyptus tree."
+wallpost user1 "Best Mistakes In Films 	In his \"Filgoer's Companion\", Mr. Leslie Halliwell helpfully lists four of the cinema's greatest moments which you should get to see if at all possible. 	In \"Carmen Jones\", the camera tracks with Dorothy Dandridge down a street; and the entire film crew is reflected in the shop window. 	In \"The Wrong Box\", the roofs of Victorian London are emblazoned with television aerials. 	In \"Decameron Nights\", Louis Jourdain stands on the deck of his fourteenth century pirate ship; and a white lorry trundles down the hill in the background. 	In \"Viking Queen\", set in the times of Boadicea, a wrist watch is clearly visible on one of the leading characters. 		-- Stephen Pile, \"The Book of Heroic Failures\""
+wallpost user3 "Let not the sands of time get in your lunch."
+wallpost user1 "The IRS spends God knows how much of your tax money on these toll-free information hot lines staffed by IRS employees, whose idea of a dynamite tax tip is that you should print neatly.  If you ask them a real tax question, such as how you can cheat, they're useless.  So, for guidance, you want to look to big business.  Big business never pays a nickel in taxes, according to Ralph Nader, who represents a big consumer organization that never pays a nickel in taxes... 		-- Dave Barry, \"Sweating Out Taxes\""
+wallpost user5 "Nature abhors a virgin -- a frozen asset. 		-- Clare Booth Luce"
+wallpost user4 "Q:	What do a blonde and your computer have in common? A:	You don't know how much either of them mean to you until 	they go down on you.  Q:	What's the advantage to being married to a blonde? A:	You can park in the handicapped zone.  Q:	Why did the blonde get so excited after she finished her jigsaw 	puzzle in only 6 months? A:	Because on the box it said \"From 2-4 years\"."
+wallpost user5 "Speak softly and own a big, mean Doberman. 		-- Dave Millman"
+wallpost user1 "There's no justice in this world. 		-- Frank Costello, on the prosecution of \"Lucky\" Luciano 		   by New York district attorney Thomas Dewey after 		   Luciano had saved Dewey from assassination by Dutch 		   Schultz (by ordering the assassination of Schultz 		   instead)"
+wallpost user5 "1. Never give anything away for nothing.  2. Never give more than you have to (always catch the buyer hungry and always make him wait). 3. Always take back everything if you possibly can. 		-- William S. Burroughs, on drug pushing"
+wallpost user2 "Uppers are no longer stylish, methedrine is almost as rare as pure acid or DMT.  \"Consciousness Expansion\" went out with LBJ and it is worth noting, historically, that downers came in with Nixon. 		-- Dr. Hunter S. Thompson"
+wallpost user4 "FORTUNE'S FUN FACTS TO KNOW AND TELL:		#37 	Can you name the seven seas? 		Antartic, Artic, North Atlantic, South Atlantic, Indian, 		North Pacific, South Pacific. 	Can you name the seven dwarfs from Snow White? 		Doc, Dopey, Sneezy, Happy, Grumpy, Sleepy and Bashful."
+wallpost user1 "Experience is what causes a person to make new mistakes instead of old ones."
+wallpost user1 "Put your Nose to the Grindstone! 		-- Amalgamated Plastic Surgeons and Toolmakers, Ltd."
+wallpost user2 "Please take note:"
+wallpost user2 "Conflicting research paradigms Have legitimized various crimes. 	The worst we can see 	Is in psychology, Measuring reaction times."
+wallpost user5 "But Officer, I stopped for the last one, and it was green!"
+wallpost user2 "Climate and Surgery 	R C Gilchrist, who was shot by J Sharp twelve days ago, and who received a derringer ball in the right breast, and who it was supposed at the time could not live many hours, was on the street yesterday and the day before - walking several blocks at a time.  To those who design to be riddled with bullets or cut to pieces with Bowie-knives, we cordially recommend our Sacramento climate and Sacramento surgery. 		-- Sacramento Daily Union, September 11, 1861"
+wallpost user5 "\"What I think is that the F-word is basically just a convenient nasty- sounding word that we tend to use when we would really like to come up with a terrifically witty insult, the kind Winston Churchill always came up with when enormous women asked him stupid questions at parties. 		-- Dave Barry, \"$#$%#^%!^%&@%@!\""
+wallpost user4 "I know the disposition of women: when you will, they won't; when you won't, they set their hearts upon you of their own inclination. 		-- Publius Terentius Afer (Terence)"
+wallpost user4 "Q:	How many Marxists does it take to screw in a lightbulb? A:	None:  The lightbulb contains the seeds of its own revolution."
+wallpost user2 "fortune: not found"
+wallpost user4 "You never have to change anything you got up in the middle of the night to write. 		-- Saul Bellow"

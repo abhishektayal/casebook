@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}{{ username }} - {{ block.super }}{% endblock %}
+
+{% block content %}
+    <h2 class="grid_4 suffix_5">{{ username }}&rsquo;s Photo Album</h2>
+    <ul id="timeline" class="grid_9 alpha">
+             
+	 {% for photo in photos %}
+	    <li>
+	<!-- <span class="username">{{ photo.userid }}</span> -->
+                <span class="body"><img height="500" width="650" src="data:image/gif;base64,{{ photo }}"/></span>
+        </li>
+        {% empty %}
+            <li>There are no posts yet.  Make sure to post one!</li>
+        {% endfor %}
+        {% if next %}
+            <li class="more"><a href="?start={{ next }}">More</a></li>
+        {% endif %}
+    </ul>
+{% endblock %}
+
+{% block sidebar %}
+        {% ifnotequal request.user.id user.id %}
+            <form method="POST" action="{% url modify_friend %}?next={{ request.path }}">
+                <input type="hidden" name="{% if user.friend %}remove{% else %}add{% endif %}-friend" value="{{ user.id }}" />
+                <input type="submit" value="{% if user.friend %}Remove{% else %}Add{% endif %} Friend" />
+            </form>
+        {% endifnotequal %}    
+{% endblock %}

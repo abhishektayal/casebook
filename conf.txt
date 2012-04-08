@@ -1,0 +1,96 @@
+user u1 "user1" "foo"
+user u2 "user2" "foo"
+user u3 "user3" "foo"
+user u4 "user4" "foo"
+user u5 "user5" "foo"
+user u6 "user6" "foo"
+user u7 "user7" "foo"
+user u8 "user8" "foo"
+user u9 "user9" "foo"
+user u10 "user10" "foo"
+user u11 "user11" "foo"
+user u12 "user12" "foo"
+user u13 "user13" "foo"
+user u14 "user14" "foo"
+user u15 "user15" "foo"
+friend u1 u2
+friend u1 u3
+friend u1 u4
+friend u1 u5
+friend u1 u6
+friend u1 u7
+friend u1 u8
+friend u1 u9
+friend u2 u3
+friend u2 u4
+friend u2 u5
+friend u2 u6
+friend u2 u7
+friend u2 u8
+friend u2 u9
+friend u3 u4
+friend u3 u5
+friend u3 u6
+friend u3 u7
+friend u3 u8
+friend u3 u9
+friend u4 u5
+friend u4 u6
+friend u4 u7
+friend u4 u8
+friend u4 u9
+friend u5 u6
+friend u5 u7
+friend u5 u8
+friend u5 u9
+friend u6 u7
+friend u6 u8
+friend u6 u9
+friend u7 u8
+friend u7 u9
+friend u8 u9
+wallpost u1 "this is my wall post no:1 of user 1"
+wallpost u1 "this is my wall post no:2 of user 1"
+wallpost u2 "this is my wall post no:1 of user 2"
+wallpost u2 "this is my wall post no:2 of user 2"
+wallpost u3 "this is my wall post no:1 of user 3"
+wallpost u3 "this is my wall post no:2 of user 3"
+wallpost u4 "this is my wall post no:1 of user 4"
+wallpost u4 "this is my wall post no:2 of user 4"
+wallpost u5 "this is my wall post no:1 of user 5"
+wallpost u5 "this is my wall post no:2 of user 5"
+wallpost u6 "this is my wall post no:1 of user 6"
+wallpost u6 "this is my wall post no:2 of user 6"
+wallpost u7 "this is my wall post no:1 of user 7"
+wallpost u7 "this is my wall post no:2 of user 7"
+wallpost u8 "this is my wall post no:1 of user 8"
+wallpost u8 "this is my wall post no:2 of user 8"
+wallpost u9 "this is my wall post no:1 of user 9"
+wallpost u9 "this is my wall post no:2 of user 9"
+wallpost u10 "this is my wall post no:1 of user 10"
+wallpost u10 "this is my wall post no:2 of user 10"
+wallpost u11 "this is my wall post no:1 of user 11"
+wallpost u11 "this is my wall post no:2 of user 11"
+wallpost u12 "this is my wall post no:1 of user 12"
+wallpost u12 "this is my wall post no:2 of user 12"
+wallpost u13 "this is my wall post no:1 of user 13"
+wallpost u13 "this is my wall post no:2 of user 13"
+wallpost u14 "this is my wall post no:1 of user 14"
+wallpost u14 "this is my wall post no:2 of user 14"
+wallpost u15 "this is my wall post no:1 of user 15"
+wallpost u15 "this is my wall post no:2 of user 15"
+photo u1 http://enl.usc.edu/~cs694/photos/photo6.jpg
+photo u2 http://enl.usc.edu/~cs694/photos/photo3.jpg
+photo u3 http://enl.usc.edu/~cs694/photos/photo3.jpg
+photo u4 http://enl.usc.edu/~cs694/photos/photo10.jpg
+photo u5 http://enl.usc.edu/~cs694/photos/photo5.jpg
+photo u6 http://enl.usc.edu/~cs694/photos/photo10.jpg
+photo u7 http://enl.usc.edu/~cs694/photos/photo6.jpg
+photo u8 http://enl.usc.edu/~cs694/photos/photo5.jpg
+photo u9 http://enl.usc.edu/~cs694/photos/photo8.jpg
+photo u10 http://enl.usc.edu/~cs694/photos/photo4.jpg
+photo u11 http://enl.usc.edu/~cs694/photos/photo8.jpg
+photo u12 http://enl.usc.edu/~cs694/photos/photo10.jpg
+photo u13 http://enl.usc.edu/~cs694/photos/photo7.jpg
+photo u14 http://enl.usc.edu/~cs694/photos/photo4.jpg
+photo u15 http://enl.usc.edu/~cs694/photos/photo6.jpg

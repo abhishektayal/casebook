@@ -1,0 +1,21 @@
+
+    <h2> Results of {{ username }}&rsquo;s {{type}} Query: </h2>
+    
+             
+	 {% for post in posts %}
+	   {% if type == 'post' %}
+            <li>
+                <span>{{ post|urlize }}</span>
+            </li>
+	  {% else %}
+	    <li>
+                <span><img height="100" width="100" src="{{ MEDIA_URL }}photos/{{post}}.jpg"/></span> 
+            </li>
+	  {% endif %}
+        {% empty %}
+            <li>There are no posts yet.  Make sure to post one!</li>
+        {% endfor %}
+        {% if next %}
+            <li class="more"><a href="?start={{ next }}">More</a></li>
+        {% endif %}
+    </ul>

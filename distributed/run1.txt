@@ -1,0 +1,61 @@
+START______________________ Fri Nov 18 06:05:59 2011
+/usr/local/lib/python2.7/dist-packages/Pyro4-4.11-py2.7.egg/Pyro4/core.py:148: UserWarning: HMAC_KEY not set, protocol data may not be secure
+  warnings.warn("HMAC_KEY not set, protocol data may not be secure")
+resetting dispatcher
+killing the worker on my machine
+start download for self Fri Nov 18 06:05:59 2011
+downloaded file Fri Nov 18 06:06:16 2011
+sending to downloader1
+sending to downloader2
+starting worker on my node
+in post ........
+read 5000 line in to the momeory from file.txt........
+placing work items into dispatcher queue.
+('Created workitem 7770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 12770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 17770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 22770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 27770', 5000)
+/usr/local/lib/python2.7/dist-packages/Pyro4-4.11-py2.7.egg/Pyro4/core.py:148: UserWarning: HMAC_KEY not set, protocol data may not be secure
+  warnings.warn("HMAC_KEY not set, protocol data may not be secure")
+This is worker Worker_2376@i-000000de
+getting work from dispatcher.
+placing work items into dispatcher queue.
+('Created workitem 32770', 5000)
+got one item -> Fri Nov 18 06:06:18 2011
+placing work items into dispatcher queue.
+('Created workitem 37770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 42770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 47770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 52770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 57770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 62770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 67770', 5000)
+placing work items into dispatcher queue.
+('Created workitem 72770', 5000)
+calling the aggregate function Fri Nov 18 06:06:19 2011
+TOTAL WORDS INDEXED UPTIL NOW -> 15080 total posts indexed -> 5000
+returned one item -> Fri Nov 18 06:06:37 2011
+got one item -> Fri Nov 18 06:06:37 2011
+photo Results received... Merging them
+TOTAL WORDS INDEXED UPTIL NOW -> 20349 total posts indexed -> 10000
+returned one item -> Fri Nov 18 06:07:02 2011
+got one item -> Fri Nov 18 06:07:02 2011
+TOTAL WORDS INDEXED UPTIL NOW -> 23430 total posts indexed -> 15000
+returned one item -> Fri Nov 18 06:07:33 2011
+inserting USER and FRIEND into cassandra  Fri Nov 18 06:07:34 2011
+inserting WALLPOST into cassandra  Fri Nov 18 06:07:35 2011
+no work available yet.
+no work available yet.
+no work available yet.
+DONE_____________________ Fri Nov 18 06:08:05 2011
